@@ -1,0 +1,186 @@
+/* body section (start) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('moon-gc2f7e9155_1920.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* image url : https://pixabay.com/photos/moon-universe-space-milky-way-2048727/ */
+    
+}
+/* body section (end) */
+
+
+
+/* navbar (start) */
+
+    .navbar {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+   .navbar-logo{
+    color: white;
+    font-size: 21px;
+    width: 50%;
+    padding-left: 60px;
+   }
+
+
+   .btn{
+    height: 44px;
+    width: 160px;
+    border: none;
+    background-color: #B6EADA;
+    color: black;
+   }
+
+   .top-bar {
+    width: 50%;
+    text-align: right;
+    padding-right: 60px;
+  }
+
+
+
+  .page-info {
+    color: white;
+    display: block;
+    padding-top: 18px;
+  }
+
+/* navbar (end) */
+
+.loader{
+  
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  color: #B6EADA;
+}
+
+.loader-head{
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  letter-spacing: 22px;
+  color: #B6EADA;
+}
+
+
+#pdf-render{
+  display: block;
+margin: auto;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+
+@media screen and (max-width : 844px) {
+  #pdf-render {
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+
+@media screen and (max-width : 767px) {
+  .btn {
+    height: 39px;
+    width: 145px;
+    border: none;
+    background-color: #B6EADA;
+    color: black;
+    font-size: 12px;
+  }
+
+  .page-info {
+
+    font-size: 15px;
+  }
+
+
+}
+
+@media screen and (max-width : 707px) {
+  .btn {
+    height: 39px;
+    width: 128px;
+  }
+
+  .navbar-logo {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width : 639px) {
+  .btn {
+    height: 39px;
+    width: 110px;
+    font-size: 11px;
+  }
+}
+
+@media  screen and (max-width : 567px) {
+  .navbar-logo {
+    width: 40%;
+    margin-top: 6px;
+  }
+
+  .top-bar {
+    width: 60%;
+  }
+
+  
+}
+
+@media  screen and (max-width : 552px) {
+  .navbar-logo {
+    margin-bottom: 134px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .navbar{
+    display: block;
+  }
+
+  .top-bar {
+    width: 100%;
+    padding-right: 41px;
+  }
+
+  #pdf-render {
+    padding-top: 7px;
+    padding-bottom: 180px;
+  }
+
+
+  
+}
+
+@media screen and (max-width : 335px) {
+  .loader-head{
+    font-size: 20px;
+    letter-spacing: 7px;
+  }
+}
